@@ -204,6 +204,61 @@ button:focus-visible,
   opacity: 0.85;
 }
 
+.whats-next-btn {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.whats-next-btn svg {
+  width: 11rem;
+  height: auto;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
+}
+
+.whats-next-btn:hover,
+.whats-next-btn:focus-visible {
+  transform: translateY(-2px) rotate(-2deg);
+}
+
+.whats-next-btn:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+.whats-next-btn:active {
+  transform: translateY(0) rotate(0deg);
+}
+
+.schedule-row-highlight {
+  animation: schedule-row-pulse 2.4s ease-out 1;
+}
+
+@keyframes schedule-row-pulse {
+  0% { background-color: rgba(45, 212, 191, 0.35); }
+  100% { background-color: transparent; }
+}
+
+@media (max-width: 640px) {
+  .whats-next-btn {
+    position: static;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .whats-next-btn svg {
+    width: 9.5rem;
+  }
+}
+
 main {
   position: relative;
   z-index: 1;
