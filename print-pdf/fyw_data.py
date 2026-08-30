@@ -6,7 +6,7 @@ rows = [
   dict(num="1", date="Wed. Aug. 26", topic="Welcome &amp; Genres", pre="Welcome! Syllabus review and Start of Semester Form.", notes=""),
   dict(num="2", date="Fri. Aug. 28", topic="Welcome &amp; Genres", pre="<strong>Starting Points</strong><ul><li>In-class: Diagnostic writing &mdash; &ldquo;What do you think a cult is?&rdquo; (handwritten)</li><li>In-class: Introduction to Perusall; annotation practice</li></ul>", notes=""),
   dict(num="3", date="Mon. Aug. 31", topic="The Power of Labels", pre="Reading: &ldquo;Understanding Genres&rdquo;", notes=""),
-  dict(num="4", date="Wed. Sep. 2", topic="The Power of Labels", pre="Reading: &ldquo;Choosing and Refining Topics&rdquo;<br>In-Class Activity: The Tnevnoc Exercise", notes=""),
+  dict(num="4", date="Wed. Sep. 2", topic="The Power of Labels", pre="Reading: &ldquo;Choosing and Refining Topics&rdquo;<br>Follow my reading instructions comments on Perusall. Once you get to &ldquo;Moving from Topic to Thesis,&rdquo; the rest of the reading is optional.<br>In-Class Activity: The Tnevnoc Exercise", notes=""),
   dict(num="5", date="Fri. Sep. 4", topic="The Power of Labels", pre="Reading: David G. Bromley and Anson D. Shupe Jr., &ldquo;The Tnevnoc Cult&rdquo; (<em>Sociological Analysis</em>, 1979)", notes=""),
   dict(noclass="No Class &mdash; Labor Day", date="Mon. Sep. 7"),
   dict(num="6", date="Wed. Sep. 9", topic="Stasis Theory &amp; Definitions", pre="J.T. Richardson, &ldquo;Definitions of Cult: From Sociological-Technical to Popular-Negative&rdquo; (<em>Review of Religious Research</em>, 1993)", notes=""),
