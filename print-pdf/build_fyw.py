@@ -2,12 +2,13 @@
 # Exact verbatim text from the live FYW 1323 site. Compact, consistent
 # heading treatment throughout — same sections packed onto the same page
 # wherever they fit.
-import sys
-sys.path.insert(0, "/private/tmp/claude-504/-Users-vmontrose-Desktop-FYW-1323-What-is-a-cult-syllabus-website/b73c8ee0-12b2-4b38-8bba-44ab21e5fc8f/scratchpad/syllabus-pdfs")
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gen_schedule import sched_table
 from fyw_data import rows as sched_rows
 
-OUT = "/private/tmp/claude-504/-Users-vmontrose-Desktop-FYW-1323-What-is-a-cult-syllabus-website/b73c8ee0-12b2-4b38-8bba-44ab21e5fc8f/scratchpad/syllabus-pdfs/fyw-syllabus.html"
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "fyw-syllabus.html")
 
 TOKENS = """
 :root {
@@ -71,7 +72,7 @@ pages.append(f"""
         <div class="body prose">
           <p><strong>Meets:</strong> Mon / Wed / Fri, 1:30&ndash;2:20 PM &middot; Furman Hall 121</p>
           <p><strong>Instructor:</strong> Dr. Tori Montrose<br>victoria.montrose@furman.edu</p>
-          <p><strong>Office:</strong> Furman Hall 206J &middot; Office hours by appointment</p>
+          <p><strong>Office:</strong> Furman Hall 206J &middot; Office hours <a href="https://outlook.office.com/book/DrToriMontrosesBookingPage@bookings.furman.edu/">by appointment</a></p>
           <p><strong>Librarian:</strong> Patricia Sasser<br>patricia.sasser@furman.edu</p>
         </div>
       </div>
