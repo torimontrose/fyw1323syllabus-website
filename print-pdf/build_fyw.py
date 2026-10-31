@@ -203,11 +203,13 @@ def sched_page(title, rows_slice, first=False):
 </div>
 """
 
-chunk1 = sched_rows[0:19]
-chunk2 = sched_rows[19:]
+chunk1 = sched_rows[0:16]
+chunk2 = sched_rows[16:32]
+chunk3 = sched_rows[32:]
 
 pages.append(sched_page("CLASS SCHEDULE", chunk1, first=True))
 pages.append(sched_page("", chunk2))
+pages.append(sched_page("", chunk3))
 
 # ---------------- PAGE 5: POLICIES I ----------------
 accessibility = item("Statement on Accessibility and Inclusivity",
